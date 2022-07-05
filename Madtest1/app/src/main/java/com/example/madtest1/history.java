@@ -31,16 +31,20 @@ public class history extends AppCompatActivity {
                     case R.id.page_2:
                         return true;
                     case R.id.page_3:
-                        Toast.makeText(history.this, "brow", Toast.LENGTH_SHORT).show();
-                        break;
+                        startActivity(new Intent(getApplicationContext(),browse.class));
+                        overridePendingTransition(0,0);
+                        return true;
 
                     case R.id.page_4:
-                        Toast.makeText(history.this, "settings", Toast.LENGTH_SHORT).show();
-                        break;
+                        startActivity(new Intent(getApplicationContext(),setting.class));
+                        overridePendingTransition(0,0);
+                        return true;
 
                 }
-                return true;
+                return false;
             }
         });
     }
+
+
 }

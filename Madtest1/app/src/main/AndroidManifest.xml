@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Madtest1">
         <activity
+            android:name=".setting"
+            android:exported="false" />
+        <activity
+            android:name=".browse"
+            android:exported="false" />
+        <activity
             android:name=".history"
             android:exported="false" />
         <activity

@@ -8,7 +8,7 @@
         android:title="s"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/delete"
+        android:id="@+id/about"
         android:contentDescription="@string/content_description_delete"
         android:icon="@android:drawable/ic_menu_delete"
         android:title="de"

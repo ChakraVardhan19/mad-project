@@ -30,8 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="#15232e"
-            app:menu="@menu/history"
-            app:title="History"
+            app:menu="@menu/browse"
+            app:title="@string/Browse"
             app:titleTextColor="@color/white" />
 
     </com.google.android.material.appbar.AppBarLayout>
