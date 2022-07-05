@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/gsearch"
+        android:contentDescription="@string/content_description_search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="gs"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/gsort"
+        android:contentDescription="@string/content_description_gsort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="gso"
+        app:showAsAction="ifRoom" />
+</menu>

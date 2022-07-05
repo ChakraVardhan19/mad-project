@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Madtest1</string>
+    <string name="text_label_1">lib</string>
+    <string name="text_label_2">his</string>
+    <string name="settings">settings</string>
+    <string name="History">History</string>
+    <string name="content_description_search">search bar</string>
+    <string name="content_description_favorite">sort</string>
+    <string name="page_title">Library</string>
+    <string name="content_description_delete">delete</string>
+    <string name="Browse">Browse</string>
+    <string name="content_description_gsort">sort</string>
+</resources>
