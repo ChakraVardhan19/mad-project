@@ -21,8 +21,19 @@
             app:tabIndicator="@drawable/tab_indicator"
             app:tabIndicatorAnimationMode="linear"
             app:tabIndicatorFullWidth="true"
+
             app:tabRippleColor="?colorPrimary" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_sans"
+            android:letterSpacing="0.2"
+            android:text="Library"
+            android:textAlignment="center"
+            android:textColor="?colorPrimary"
+            android:textSize="@dimen/text_big"
+            android:textStyle="bold" />
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/view_pager"
             android:layout_width="match_parent"

@@ -15,7 +15,7 @@
             android:id="@+id/search"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:queryHint="@string/search_hint"
+            android:queryHint="Enter any comic name"
             android:iconifiedByDefault="false" />
 
         <com.google.android.material.tabs.TabLayout

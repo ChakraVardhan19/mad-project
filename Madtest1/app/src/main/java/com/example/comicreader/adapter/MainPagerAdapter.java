@@ -24,8 +24,8 @@ public class MainPagerAdapter extends FragmentStatePagerAdapter  {
     }
 
     public void setFragments() {
-        fragments.add(BrowseFragment.newInstance());
         fragments.add(LibraryFragment.newInstance());
+        fragments.add(BrowseFragment.newInstance());
         fragments.add(SearchFragment.newInstance());
         fragments.add(SettingFragment.newInstance());
     }

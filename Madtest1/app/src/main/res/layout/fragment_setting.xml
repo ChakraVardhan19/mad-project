@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/nunito_sans"
             android:letterSpacing="0.2"
-            android:text="@string/ui"
+            android:text="Settings"
             android:textColor="?colorPrimary"
             android:textSize="@dimen/text_big"
             android:textStyle="bold" />
@@ -56,17 +56,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/nunito_sans"
-                    android:text="@string/select_default_theme"
+                    android:text="Select Theme"
                     android:textColor="@color/colorTextHigh"
                     android:textSize="@dimen/text_big" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:fontFamily="@font/nunito_sans"
-                    android:text="@string/theme_mode_sub_text"
-                    android:textColor="@color/colorTextMed"
-                    android:textSize="@dimen/text_big_med" />
+
 
             </LinearLayout>
 
@@ -140,18 +134,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/nunito_sans"
-                    android:text="@string/select_accent_color"
+                    android:text="Select color of ur choice"
                     android:textColor="@color/colorTextHigh"
                     android:textSize="@dimen/text_big" />
 
-                <TextView
-                    android:id="@+id/current_accent"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:fontFamily="@font/nunito_sans"
-                    android:text="@string/choose_your_favorite_color_of_choice"
-                    android:textColor="@color/colorTextMed"
-                    android:textSize="@dimen/text_big_med" />
+
 
             </LinearLayout>
         </LinearLayout>
@@ -199,13 +186,7 @@
                     android:textColor="@color/colorTextHigh"
                     android:textSize="@dimen/text_big" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:fontFamily="@font/nunito_sans"
-                    android:text="@string/raise_issue_join_the_community"
-                    android:textColor="@color/colorTextMed"
-                    android:textSize="@dimen/text_big_med" />
+
 
             </LinearLayout>
         </LinearLayout>

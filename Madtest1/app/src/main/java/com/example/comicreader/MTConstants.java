@@ -5,8 +5,8 @@ public class MTConstants {
     public static final String BASE_URL = "https://www.readm.org/";
 
     public static final int[] TAB_ICONS = new int[]{
-            R.drawable.ic_browse,
             R.drawable.ic_library,
+            R.drawable.ic_browse,
             R.drawable.ic_search,
             R.drawable.ic_setting
     };
@@ -16,7 +16,7 @@ public class MTConstants {
     // database constants
     public static final String MANGA_DB = "manga_db";
     public static final String MANGA_TABLE = "manga";
-    public static final String NOVEL_TABLE = "novel";
+
 
     public static final String[] OOPS = new String[] {
             "¯\\_(ツ)_/¯",
@@ -76,5 +76,5 @@ public class MTConstants {
             R.color.blue_grey_300
     );
     public static final String PACKAGE_NAME = "com.example.comicreader";
-    public static final String GITHUB_REPO_URL = "https://github.com";
+    public static final String GITHUB_REPO_URL = "https://github.com/ChakraVardhan19/mad-project";
 }
